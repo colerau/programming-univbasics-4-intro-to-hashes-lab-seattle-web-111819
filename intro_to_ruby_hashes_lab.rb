@@ -19,7 +19,10 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  
+  if hash[key]
+    return hask[key]
+  else 
+    
 end
 
 def update_counting_hash(hash, key)
