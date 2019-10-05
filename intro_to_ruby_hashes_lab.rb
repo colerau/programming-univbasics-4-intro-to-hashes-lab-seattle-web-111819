@@ -22,7 +22,7 @@ def read_from_hash(hash, key)
   if hash[key]
     return hask[key]
   else 
-    
+    return 
 end
 
 def update_counting_hash(hash, key)
